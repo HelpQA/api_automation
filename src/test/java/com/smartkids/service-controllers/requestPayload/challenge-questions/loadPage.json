@@ -1,0 +1,12 @@
+[
+	{
+		"pageName": "#(pageName)",
+		"username": "#(username)",
+		"subject": "#(subject)",
+		"action": "#(actionPageLoad)",
+		"sessionId": "#(sessionId)",
+		"eventId": "#(eventId)",
+		"timestamp": "#(timestamp)",
+		"version": "#(version)"
+	}
+]

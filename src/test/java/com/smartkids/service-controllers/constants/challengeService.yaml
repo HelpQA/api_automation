@@ -1,0 +1,24 @@
+paramaters:
+
+  pageName: challenge
+  subject: math
+  version: RELEASE_VERSION
+  isReviewFalse: false
+  isReviewTrue: true
+  startLessonProgress: 0
+  startLessonQuestion: 0
+  loadquestionProgress: 0
+  loadquestionNumber: 0
+  scorequestionProgress: 10
+  scorequestionNumber: 10
+  endlessonquestionProgress: 10
+  endlessonquestionNumber: 10
+    
+  actions: 
+    loadPage: LOAD_PAGE
+    startLession: START_LESSON
+    loadQuestion: LOAD_QUESTION
+    correctAnswer: CORRECT_ANSWER
+    incorrectAnswer: INCORRECT_ANSWER
+    scoreLesson: SCORE_LESSON
+    endLesson: END_LESSON

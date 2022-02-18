@@ -1,0 +1,32 @@
+endPoints:
+
+  authenticationToken:
+    authToken: login
+
+  student_controller:
+    getHomeworkBySubject: api/v2/student/homework/<<username>>/subject/<<subject>>
+    getHomeworkBySubjectUserID: api/v2/student/homework/<<userid>>/subject/<<subject>>
+    getHomeworkHistory: api/v2/student/homework/history/<<username>>
+    getHomeworkHistoryByStudentNameAndSubject: api/v2/student/homework/history/<<username>>/subject/<<subject>>
+    getDueHomeworkUrl: api/v2/student/homework/pending/<<username>>
+    getDueHomeworkListUrl: api/v2/student/homework/pending/list/<<username>>
+    getTopicsByGradeAndSubject: api/v2/student/practice/grade/<<grade>>/subject/<<subject>>
+    getTopicByKeyUrl: api/v2/student/topics/id/<<topic_key>>
+
+  login_controller:
+    getLogin: api/v2/student/homework/pending/list/<<username>>
+
+  challenge_controller:
+    getChallengeWithSubject: api/v2/student/homework/<<username>>/<<subject>>
+    getPendingHomework: api/v2/student/homework/pending/list/<<username>>
+    getChallengWithChallengeName: api/lesson/id/<<challengename>>
+    getChallengeWithChallengeNameForUser: api/homework/id/<<challengename>>/user/<<username>>
+    getReport: api/report/
+    
+  practice_controller:
+    getPracticeSubjectWise: api/v2/student/practice/grade/3/subject/<<subject>>
+
+  GuestUserSignUp_Controller:
+    postGuestSignup: api/sign-up/guest/
+    postUploadProfilePic: api/profile/upload
+    postUpdateGrade: api/profile/update/<<guestUserid>>

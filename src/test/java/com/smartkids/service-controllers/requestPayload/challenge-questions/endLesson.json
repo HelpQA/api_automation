@@ -1,0 +1,20 @@
+[
+	{
+		"lessonKey": "#(lessonKey)",
+		"username": "#(username)",
+		"showKeyboard": false,
+		"answer": "#(answer)",
+		"toastText": null,
+		"attemptId": "#(attemptId)",
+		"isReview": "#(isReviewFalse)",
+        "action": "#(actionEndLesson)",
+		"progress": "#(endlessonquestionProgress)",
+		"question": "#(endlessonquestionNumber)",
+		"sessionId": "#(sessionId)",
+		"eventId": "#(eventId)",
+		"timestamp": "#(timestamp)",
+		"version": "#(version)",
+        "questionStartTime": "#(questionStartTime)",
+        "score": "#(score)"
+	}
+]
